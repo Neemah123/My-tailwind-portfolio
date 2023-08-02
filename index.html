@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adeniran Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans antialiased">
+  <!-- Nav bar -->
+  <nav class="bg-gray-800 p-4">
+    <ul class="flex justify-center space-x-4">
+      <li><a href="#home" class="text-white">Home</a></li>
+      <li><a href="#about" class="text-white">About</a></li>
+      <li><a href="#contact" class="text-white">Contact</a></li>
+      <li><a href="#skills" class="text-white">Skills</a></li>
+      <li><a href="#testimonial" class="text-white">Testimonials</a></li>
+      <li><a href="#projects" class="text-white">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero section -->
+  <header class="bg-gray-900 text-white text-center py-24">
+    <h1 class="text-4xl font-bold">Hello, I'm Adeniran Nimota Ololade</h1>
+    <p class="text-2xl font-bold" class="mt-4">I am a skilled front end developer</p>
+    <button class="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-800">Hire me</button>
+  </header>
+         <!-- about section-->
+    <div id="about" class="lg:px-10 dark:bg-slate-900 mt-12">
+        <div class="container mx-auto flex flex-col-reverse lg:px-20 px-10 lg:flex-row items-center gap-20">
+         <!-- left -->
+        <div class="relative">
+            <div class="h-full w-80 rounded-full overflow-hidden ">
+              <img class="w-80" src="Nimota-headshot.jpeg" alt="" />
+            </div>
+          </div>
+           <!-- right -->
+        <div class=" my-auto flex flex-col gap-3 pt-10 sm:py-20">
+            <h1 class="font-bold text-4xl font-bold text-black-500 text-center">ABOUT ME</h1>
+            <p class="text-black-400 text-justify">
+                Adeniran Nimota Ololade is a dynamic Front-End Developer with a strong passion for crafting seamless user experiences. She is proficient in HTML5, CSS3, and JavaScript, creating interactive web applications effortlessly. Nimota holds a Bachelor of Science degree in Plant Biology, adding versatility to her creative approach in development. She enjoys exploring the beauty industry and complements her skills with diverse interests.
+          </p>
+        </div>
+        </div>
+    </div>
+    <!-- Skills section -->
+  <div id="works" class="py-20 px-40 dark:bg-slate-900 bg-gray-100">
+    <div class="container mx-auto">
+      <!-- top -->
+      <div class="flex flex-col gap-3 items-center mb-5 text-gray-900">
+        <h1 class="text-4xl font-bold text-black-500 ">SKILLS</h1>
+      </div>
+      <!-- bottom -->
+      <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+        <!-- card -->
+        <div class="w-full md:w-5/12 center lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1">
+          <p class="text-black-500  text-center font-bold">HTML5</p>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 "
+        >
+        <p class="text-black-500 text-center font-bold">CSS3</p>
+        </div>
+        <!-- card -->
+        <div
+          class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-1 md:my-10 m-1 "
+        >
+        <p class="text-black-500 text-center font-bold">JavaScript</p>
+        </div>
+
+          <!-- card -->
+          <div
+            class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 "
+          >
+          <p class="text-black-500 text-center font-bold">Tailwind CSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Projects section -->
+  <section id="projects" class="py-5 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="mb-4 text-center text-4xl font-bold text-black-500">PROJECTS</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!--PROJECT TRIBUTE-->
+        <div class="bg-white p-4 border rounded shadow">
+          <h3 class="text-lg font-bold mb-2">A tribute page</h3>
+          <a  href=" https://codepen.io/Neemah/pen/gOvyYOL">
+            <img id="project-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Dr. Norman Borlaug" width="250px" height="300px">
+          </a>
+        </div>
+        <!--booking form-->
+        <div class="bg-white p-4 border rounded shadow">
+          <h3 class="text-lg font-bold mb-2">Booking form</h3>
+          <div>
+            <a id="project-link" href="./Bookingform/app.html" class="w-16">
+              <img id="project-img" src="booking.jpeg" class="w-16 h-full">
+            </a>
+        </div>
+        </div>
+        <!--identity  card-->
+        <div class="bg-white p-4 border rounded shadow">
+          <h3 class="text-lg font-bold mb-2">identity card</h3>
+          <a id="project-link" href="./identitycard/index.html">
+            <img id="project-img" src="idcard.jpeg" width="250px" height="300px">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Testimonial section -->
+   <section id="testimonial" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="mb-4 text-center text-4xl font-bold text-black-500">Testimonials</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="border p-4 rounded">
+          <p class="mb-4">"Nimota's work is exceptional! He exceeded our expectations and delivered the project on time."</p>
+          <p class="font-bold">- Will Smith</p>
+        </div>
+        <div class="border p-4 rounded">
+          <p class="mb-4">"Working with Nimota was a pleasure. He is a talented developer with great communication skills."</p>
+          <p class="font-bold">- Michael Jackson</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact section -->
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="container w-1/2 p-8  ">
+      <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+      <p>If you have any questions or would like to work together on a project, feel free to contact me using the form below or through my email: john.doe@example.com</p>
+      <form class="mt-6">
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+          <input class="w-full px-3 py-2 border rounded" type="text" id="name" name="name" placeholder="Your Name">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+          <input class="w-full px-3 py-2 border rounded" type="email" id="email" name="email" placeholder="Your Email">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+          <textarea class="w-full px-3 py-2 border rounded" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-800" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer section -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2023 Adeniran Nimota | All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
+
